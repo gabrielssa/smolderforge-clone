@@ -4,6 +4,7 @@ body{
     height: 2000px;
     padding: 0px;
     margin: 0px;
+    color: #a08f75;
 }
 
 .arrow{
@@ -17,6 +18,11 @@ body{
     position: relative;
     top: -3px;
     left: 5px;
+}
+
+.container{
+    max-width: 1100px;
+    background-color: #251613;
 }
 
 header{
@@ -63,11 +69,11 @@ header nav ul{
     background-size: cover;
     background-position: bottom center;
     position: fixed;
-    top: 54;
+    top: 0;
     left: 0;
     z-index: -1;
     background-color: blue;
-    height: 241px;
+    height: 295px;
     width: 100%;
 }
 
@@ -82,4 +88,62 @@ header nav ul{
     width: 140px;
     height: 140px;
     display: block;
+}
+
+.geral {
+    background-color: #251613;
+}
+
+.geral .container{
+    border-top: 1px solid rgba(255,169,3,30%);
+    display:flex;
+    flex-direction: row;
+    background-color: #251613;
+    margin: auto;
+}
+
+.geral--news{
+    flex:2;
+    background-color: #251613;
+}
+
+.geral--new{
+    margin-bottom: 20px;
+}
+
+.geral--news h1{
+    text-transform: uppercase;
+    color: #CFCFCF;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.geral--right{
+    flex:1;
+    height: 300px;
+    background-color: #251613;
+}
+
+.geral--new-area{
+    padding: 20px;
+    border: 1px solid rgba(255,169,3,10%);
+}
+
+.new--header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color:#ffa903;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: #8e8e8e;
 }
