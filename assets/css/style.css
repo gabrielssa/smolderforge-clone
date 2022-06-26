@@ -289,3 +289,22 @@ footer p{
     text-align: center;
     color:#8e8e8e;
 }
+
+
+@media (min-width: 1000px) and (max-width: 1200px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 999px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 769px){
+    .geral .container{
+        flex-direction: column;
+    }
+}
