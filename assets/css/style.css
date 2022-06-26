@@ -377,4 +377,8 @@ footer p{
         display: block;
         margin-right: 20px;
     }
+
+    .geral--right{
+        margin-left: 0px;
+    }
 }
