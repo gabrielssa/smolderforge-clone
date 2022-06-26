@@ -33,6 +33,10 @@ h1{
     background-color: #251613;
 }
 
+.class-paladin {
+    color: #f58cba;
+}
+
 header{
     padding-top: 20px;
     padding-bottom: 15px;
@@ -222,8 +226,24 @@ header nav ul{
     color: #cb4239;
 }
 
+.geral--right table td.paladin{
+    color: #f58cba;
+}
+
+.geral--right table td.priest{
+    color: #fff;
+}
+
+.geral--right table td.rogue{
+    color: #fff569;
+}
+
+.geral--right table td.hunter{
+    color: #abd473;
+}
+
 .geral--right table tr:hover{
-    font-weight: 700;
+    text-shadow: 0px 0px 5px currentColor;
 }
 
 .geral--right table img{
