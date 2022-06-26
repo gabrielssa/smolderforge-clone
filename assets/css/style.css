@@ -242,6 +242,10 @@ header nav ul{
     color: #abd473;
 }
 
+.geral--right table td.ally-win{
+    color: #438bcc;
+}
+
 .geral--right table tr:hover{
     text-shadow: 0px 0px 5px currentColor;
 }
