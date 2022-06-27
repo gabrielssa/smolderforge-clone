@@ -252,7 +252,8 @@ header nav ul{
 
 .top-2v2-area,
 .top-solo-queue,
-.top-bg-wins{
+.top-bg-wins,
+.recent-battlegrounds{
     border: 1px solid rgba(255,169,3,10%);
     margin-bottom: 20px;
 }
@@ -308,6 +309,14 @@ header nav ul{
     height: 40px;
 }
 
+.geral--right table td:nth-child(1){
+    width: 20%;
+}
+
+.geral--right table td:nth-child(3){
+    width: 25%;
+}
+
 footer p{
     font-size: 11px;
     text-transform: uppercase;
@@ -320,11 +329,17 @@ footer p{
     .container{
         max-width: 960px;
     }
+    header nav{
+        display:block;
+    }
 }
 
 @media (min-width: 770px) and (max-width: 999px){
     .container{
         max-width: 720px;
+    }
+    header nav{
+        display:block;
     }
 }
 

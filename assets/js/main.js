@@ -8,7 +8,7 @@ sandwichMenu.addEventListener('click', function(){
     
     if(getStyle(navMenu, 'display') == 'block'){
         navMenu.style.display = 'none';
-    }else{
+    }else if(getStyle(navMenu, 'display') == 'none'){
         navMenu.style.display = 'block';
     }
 
