@@ -30,13 +30,13 @@ body{
     align-items: center;
     display: none;
 }
-.sandwich-menu--line{
+.sandwich-menu-icon--line{
     width: 40px;
     border-bottom: 3px solid #ffa903;
     margin-bottom: 10px;
 }
 
-.sandwich-menu--line:first-child{
+.sandwich-menu-icon--line:first-child{
     margin-top: 10px;
 }
 
@@ -121,7 +121,6 @@ header nav ul{
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: blue;
     height: 295px;
     width: 100%;
 }
@@ -154,12 +153,12 @@ header nav ul{
     margin: auto;
 }
 
-.geral--news{
+.geral-news{
     flex:2;
     background-color: #171717;
 }
 
-.geral--new{
+.geral-news--new{
     margin-bottom: 20px;
 }
 
@@ -168,13 +167,13 @@ header nav ul{
     background-color: #171717;
 }
 
-.geral--new-area,
+.geral-news--new--area,
 .realm-status-area{
     padding: 20px;
     border: 1px solid rgba(255,169,3,10%);
 }
 
-.new--header{
+.new-header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
