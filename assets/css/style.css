@@ -258,6 +258,7 @@ header nav ul{
 }
 
 .geral--right table{
+    font-size: 15px;
     text-align: center;
     width: 100%;
     border-collapse: collapse;
@@ -316,6 +317,7 @@ header nav ul{
     width: 25%;
 }
 
+
 footer p{
     font-size: 11px;
     text-transform: uppercase;
@@ -339,6 +341,12 @@ footer p{
     }
     header nav{
         display:block;
+    }
+    .geral--right table td:nth-child(1){
+        display: none;
+    }
+    .geral--right table th:nth-child(1){
+        width: 10%;
     }
 }
 
